@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram name="Page-1" id="ja6Jv6K6E00j63stfY1Q">
+    <mxGraphModel dx="2039" dy="1576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EDjaMZPSDxmGKB74mhdC-53" value="US-005: Reconciliation Error Logs for IT Support" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-950" y="-720" width="660" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="EDjaMZPSDxmGKB74mhdC-54" value="System / IT" style="swimlane;startSize=20;horizontal=0;html=1;" parent="EDjaMZPSDxmGKB74mhdC-53" vertex="1">
+          <mxGeometry y="20" width="660" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EDjaMZPSDxmGKB74mhdC-71" value="Provide filtering options for IT (date, department, severity)" style="rounded=0;whiteSpace=wrap;html=1;" parent="EDjaMZPSDxmGKB74mhdC-54" vertex="1">
+          <mxGeometry x="490" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EDjaMZPSDxmGKB74mhdC-54" source="dmt541acUcm2cPtqfMdv-3" target="dmt541acUcm2cPtqfMdv-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-3" value="Capture reconciliation errors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EDjaMZPSDxmGKB74mhdC-54">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EDjaMZPSDxmGKB74mhdC-54" source="dmt541acUcm2cPtqfMdv-13" target="dmt541acUcm2cPtqfMdv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-13" value="Log invoice ID, customer ID, payment info, failure reason" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EDjaMZPSDxmGKB74mhdC-54">
+          <mxGeometry x="190" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EDjaMZPSDxmGKB74mhdC-54" source="dmt541acUcm2cPtqfMdv-7" target="EDjaMZPSDxmGKB74mhdC-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-7" value="Update historical logs (retain 90 days)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EDjaMZPSDxmGKB74mhdC-54">
+          <mxGeometry x="340" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EDjaMZPSDxmGKB74mhdC-55" value="IT Support Engineer" style="swimlane;startSize=20;horizontal=0;html=1;" parent="EDjaMZPSDxmGKB74mhdC-53" vertex="1">
+          <mxGeometry y="160" width="660" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-14" value="Review logs as needed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EDjaMZPSDxmGKB74mhdC-55">
+          <mxGeometry x="400" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
