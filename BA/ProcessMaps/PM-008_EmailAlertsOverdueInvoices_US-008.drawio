@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram name="Page-1" id="ja6Jv6K6E00j63stfY1Q">
+    <mxGraphModel dx="2155" dy="1176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dmt541acUcm2cPtqfMdv-18" value="US-008: Email Alerts for Overdue Invoices" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1060" y="-390" width="1050" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-19" value="System / IT" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="dmt541acUcm2cPtqfMdv-18">
+          <mxGeometry y="20" width="1050" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dmt541acUcm2cPtqfMdv-19" source="dmt541acUcm2cPtqfMdv-3" target="dmt541acUcm2cPtqfMdv-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-3" value="Identify Overdue Invoices&amp;nbsp;Check against thresholds&amp;nbsp;(30/60/90 days)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dmt541acUcm2cPtqfMdv-19">
+          <mxGeometry x="60" y="120" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dmt541acUcm2cPtqfMdv-19" source="dmt541acUcm2cPtqfMdv-22" target="dmt541acUcm2cPtqfMdv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-22" value="Daily Invoice Check" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dmt541acUcm2cPtqfMdv-19">
+          <mxGeometry x="80" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dmt541acUcm2cPtqfMdv-19" source="dmt541acUcm2cPtqfMdv-52" target="dmt541acUcm2cPtqfMdv-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-61" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dmt541acUcm2cPtqfMdv-60">
+          <mxGeometry x="-0.3714" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dmt541acUcm2cPtqfMdv-19" source="dmt541acUcm2cPtqfMdv-52" target="dmt541acUcm2cPtqfMdv-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-81" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dmt541acUcm2cPtqfMdv-80">
+          <mxGeometry x="-0.6353" y="-4" relative="1" as="geometry">
+            <mxPoint x="-41" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-52" value="Are there overdue?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="dmt541acUcm2cPtqfMdv-19">
+          <mxGeometry x="260" y="115" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dmt541acUcm2cPtqfMdv-19" source="dmt541acUcm2cPtqfMdv-54" target="dmt541acUcm2cPtqfMdv-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-54" value="Generate&lt;div&gt;Email Alerts&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dmt541acUcm2cPtqfMdv-19">
+          <mxGeometry x="440" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dmt541acUcm2cPtqfMdv-19" source="dmt541acUcm2cPtqfMdv-64" target="dmt541acUcm2cPtqfMdv-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-64" value="Send Emails to Finance Team" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dmt541acUcm2cPtqfMdv-19">
+          <mxGeometry x="600" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dmt541acUcm2cPtqfMdv-19" source="dmt541acUcm2cPtqfMdv-66" target="dmt541acUcm2cPtqfMdv-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-66" value="Log Sent Alerts for Audit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dmt541acUcm2cPtqfMdv-19">
+          <mxGeometry x="750" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-68" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dmt541acUcm2cPtqfMdv-19">
+          <mxGeometry x="910" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dmt541acUcm2cPtqfMdv-19" source="dmt541acUcm2cPtqfMdv-77" target="dmt541acUcm2cPtqfMdv-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-77" value="Log No Alerts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dmt541acUcm2cPtqfMdv-19">
+          <mxGeometry x="750" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-20" value="Billing Manager" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="dmt541acUcm2cPtqfMdv-18">
+          <mxGeometry y="300" width="1050" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-44" value="Receive Alerts&amp;nbsp;Take Action on Overdue Invoices" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dmt541acUcm2cPtqfMdv-20">
+          <mxGeometry x="600" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dmt541acUcm2cPtqfMdv-18" source="dmt541acUcm2cPtqfMdv-64" target="dmt541acUcm2cPtqfMdv-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmt541acUcm2cPtqfMdv-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="dmt541acUcm2cPtqfMdv-18" source="dmt541acUcm2cPtqfMdv-44" target="dmt541acUcm2cPtqfMdv-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
