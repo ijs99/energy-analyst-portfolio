@@ -63,17 +63,6 @@ As an IT Support Enginner, I want the system to generate detailed reconciliation
 
 ---
 
-# US-005: Reconciliation Error Logs for IT Support
-**Epic:** EPIC-001
-
-## Story
-As a (actor), I want (action), so that (goal)
-
-## Acceptance Criteria
-- todo.
-
----
-
 # US-006: Auto-Assign Exception to Billing Team
 **Epic:** EPIC-001
 
