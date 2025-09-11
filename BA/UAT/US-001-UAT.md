@@ -14,6 +14,8 @@
 
 ## US-001: System automatically reconciles full payments
 | Test Case ID | Scenario | Steps | Expected Result | Actual Result | Pass/Fail | Notes |
+|-------------|---------|-------|----------------|---------------|-----------|-------|
+
 
 | Test Case ID | Scenario | Steps | Expected Result | Actual Result | Pass/Fail | Notes |
 |-------------|---------|-------|----------------|---------------|-----------|-------|
