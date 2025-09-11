@@ -55,14 +55,14 @@
 | Test Case ID | Scenario | Steps | Expected Result | Actual Result | Pass/Fail | Notes |
 |--------------|---------|-------|----------------|---------------|-----------|-------|
 | TC-001-US006 | Assign exceptions accuracy | 1. Open exceptions<br>2. Assign correct number to right person | Exception received by right person and right number of exceptions | | | |
-| TC-002-US006 | Assignment management | 1. Manager decides whether person is available or not<br>2. If yes continue if no then allow reassignment | Assign occure when available. Unassigned exceptions to loop back | | | |
+| TC-002-US006 | Assignment management | 1. Manager decides whether person is available or not<br>2. If yes continue if no then allow reassignment | Assign occurs when available. Unassigned exceptions to loop back | | | |
 
 ---
 ## US-007: Dashboard Showing Reconciliation Metrics
 | Test Case ID | Scenario | Steps | Expected Result | Actual Result | Pass/Fail | Notes |
 |--------------|---------|-------|----------------|---------------|-----------|-------|
-| TC-001-US005 | Generate Daily Reconciliation Report | 1. Run reconciliation<br>2. Export report | Report shows total invoices, matched, partial, and exceptions | | | |
-| TC-002-US005 | Report Accuracy | 1. Compare report to system data | Report matches actual system results | | | |
+| TC-001-US007 | Dashboard generates correctly/timely | 1. Dashboard published<br>2. Accurate and timely update | Dashboard is flawless from publish to update to republish and in time | | | |
+| TC-002-US007 | Critical Issue managed | 1. Dashboard published with red flags<br>2. Notifications correctly sent and manager resolves and closes cases | Dashboard shows red flags well, and manager is able to open and close the cases as resolving issues. | | | |
 
 ---
 ## US-008: Email Alerts for Overdue Invoices
