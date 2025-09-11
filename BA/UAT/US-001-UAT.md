@@ -54,8 +54,8 @@
 ## US-006: Auto-Assign Exception to Billing Team
 | Test Case ID | Scenario | Steps | Expected Result | Actual Result | Pass/Fail | Notes |
 |--------------|---------|-------|----------------|---------------|-----------|-------|
-| TC-001-US005 | Generate Daily Reconciliation Report | 1. Run reconciliation<br>2. Export report | Report shows total invoices, matched, partial, and exceptions | | | |
-| TC-002-US005 | Report Accuracy | 1. Compare report to system data | Report matches actual system results | | | |
+| TC-001-US006 | Assign exceptions accuracy | 1. Open exceptions<br>2. Assign correct number to right person | Exception received by right person and right number of exceptions | | | |
+| TC-002-US006 | Assignment management | 1. Manager decides whether person is available or not<br>2. If yes continue if no then allow reassignment | Assign occure when available. Unassigned exceptions to loop back | | | |
 
 ---
 ## US-007: Dashboard Showing Reconciliation Metrics
