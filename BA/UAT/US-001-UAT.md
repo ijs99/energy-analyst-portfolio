@@ -52,4 +52,26 @@
 | TC-002-US005 | Report Accuracy | 1. Compare report to system data | Report matches actual system results | | | |
 
 ---
+## US-006: Reporting and Metrics
+| Test Case ID | Scenario | Steps | Expected Result | Actual Result | Pass/Fail | Notes |
+|--------------|---------|-------|----------------|---------------|-----------|-------|
+| TC-001-US005 | Generate Daily Reconciliation Report | 1. Run reconciliation<br>2. Export report | Report shows total invoices, matched, partial, and exceptions | | | |
+| TC-002-US005 | Report Accuracy | 1. Compare report to system data | Report matches actual system results | | | |
+
+---
+## US-007: Reporting and Metrics
+| Test Case ID | Scenario | Steps | Expected Result | Actual Result | Pass/Fail | Notes |
+|--------------|---------|-------|----------------|---------------|-----------|-------|
+| TC-001-US005 | Generate Daily Reconciliation Report | 1. Run reconciliation<br>2. Export report | Report shows total invoices, matched, partial, and exceptions | | | |
+| TC-002-US005 | Report Accuracy | 1. Compare report to system data | Report matches actual system results | | | |
+
+---
+## US-008: Reporting and Metrics
+| Test Case ID | Scenario | Steps | Expected Result | Actual Result | Pass/Fail | Notes |
+|--------------|---------|-------|----------------|---------------|-----------|-------|
+| TC-001-US005 | Generate Daily Reconciliation Report | 1. Run reconciliation<br>2. Export report | Report shows total invoices, matched, partial, and exceptions | | | |
+| TC-002-US005 | Report Accuracy | 1. Compare report to system data | Report matches actual system results | | | |
+
+---
+
 
