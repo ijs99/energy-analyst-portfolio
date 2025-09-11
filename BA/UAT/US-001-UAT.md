@@ -17,6 +17,8 @@
 |-------------|---------|-------|----------------|---------------|-----------|-------|
 | TC-001-US001 | Full Payment Match | 1. Upload daily billing file<br>2. Upload daily payment file<br>3. Run reconciliation | System flags all partial payments as exceptions ||||
 | TC-002-US001 | Partial Payment Present | 1. Upload billing file<br>2. Upload partial payment file<br>3. Run reconciliation | Matched invoices closed, partial payments flagged as exceptions ||||
+| TC-xxx-US001 | [scenario] | 1. [step1]<br>2. [step2]<br>3. [step3] | [expected result] ||||
+
 
 | Test Case ID | Scenario | Steps | Expected Result | Actual Result | Pass/Fail | Notes |
 |-------------|---------|-------|----------------|---------------|-----------|-------|
