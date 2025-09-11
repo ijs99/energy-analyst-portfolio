@@ -11,7 +11,6 @@
 
 ---
 
-
 ## US-001: System automatically reconciles full payments
 | Test Case ID | Scenario | Steps | Expected Result | Actual Result | Pass/Fail | Notes |
 |-------------|---------|-------|----------------|---------------|-----------|-------|
@@ -52,21 +51,21 @@
 | TC-002-US005 | Report Accuracy | 1. Compare report to system data | Report matches actual system results | | | |
 
 ---
-## US-006: Reporting and Metrics
+## US-006: Auto-Assign Exception to Billing Team
 | Test Case ID | Scenario | Steps | Expected Result | Actual Result | Pass/Fail | Notes |
 |--------------|---------|-------|----------------|---------------|-----------|-------|
 | TC-001-US005 | Generate Daily Reconciliation Report | 1. Run reconciliation<br>2. Export report | Report shows total invoices, matched, partial, and exceptions | | | |
 | TC-002-US005 | Report Accuracy | 1. Compare report to system data | Report matches actual system results | | | |
 
 ---
-## US-007: Reporting and Metrics
+## US-007: Dashboard Showing Reconciliation Metrics
 | Test Case ID | Scenario | Steps | Expected Result | Actual Result | Pass/Fail | Notes |
 |--------------|---------|-------|----------------|---------------|-----------|-------|
 | TC-001-US005 | Generate Daily Reconciliation Report | 1. Run reconciliation<br>2. Export report | Report shows total invoices, matched, partial, and exceptions | | | |
 | TC-002-US005 | Report Accuracy | 1. Compare report to system data | Report matches actual system results | | | |
 
 ---
-## US-008: Reporting and Metrics
+## US-008: Email Alerts for Overdue Invoices
 | Test Case ID | Scenario | Steps | Expected Result | Actual Result | Pass/Fail | Notes |
 |--------------|---------|-------|----------------|---------------|-----------|-------|
 | TC-001-US005 | Generate Daily Reconciliation Report | 1. Run reconciliation<br>2. Export report | Report shows total invoices, matched, partial, and exceptions | | | |
