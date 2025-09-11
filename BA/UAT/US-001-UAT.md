@@ -15,7 +15,7 @@
 ## US-001: System automatically reconciles full payments
 | Test Case ID | Scenario | Steps | Expected Result | Actual Result | Pass/Fail | Notes |
 |-------------|---------|-------|----------------|---------------|-----------|-------|
-
+| TC-001-US001 | Full Payment Match | 1. Upload daily billing file<br>2. Upload daily payment file<br>3. Run reconciliation | System flags all partial payments as eceptions ||||
 
 | Test Case ID | Scenario | Steps | Expected Result | Actual Result | Pass/Fail | Notes |
 |-------------|---------|-------|----------------|---------------|-----------|-------|
