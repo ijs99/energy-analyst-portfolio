@@ -329,42 +329,73 @@
     </mxGraphModel>
   </diagram>
   <diagram id="viTLkNq3g24C_WNsY8Tq" name="Page-5">
-    <mxGraphModel dx="703" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LFaYC_BXR7kkYEN-PLju-12" value="US-005: Reconciliation Error Logs for IT Support" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="30" width="660" height="330" as="geometry" />
+        <mxCell id="LFaYC_BXR7kkYEN-PLju-12" value="US-005: Reconciliation Error Logs for IT Support" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="30" width="720" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="LFaYC_BXR7kkYEN-PLju-13" value="System / IT" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="LFaYC_BXR7kkYEN-PLju-12">
-          <mxGeometry y="20" width="660" height="140" as="geometry" />
+        <mxCell id="LFaYC_BXR7kkYEN-PLju-13" value="System / IT" style="swimlane;startSize=20;horizontal=0;html=1;" parent="LFaYC_BXR7kkYEN-PLju-12" vertex="1">
+          <mxGeometry y="20" width="720" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="LFaYC_BXR7kkYEN-PLju-14" value="Provide filtering options for IT (date, department, severity)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LFaYC_BXR7kkYEN-PLju-13">
+        <mxCell id="pdMPMaJ6xtJ1TNGXqqYj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="LFaYC_BXR7kkYEN-PLju-13" source="LFaYC_BXR7kkYEN-PLju-14" target="pdMPMaJ6xtJ1TNGXqqYj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LFaYC_BXR7kkYEN-PLju-14" value="Provide filtering options for IT (date, department, severity)" style="rounded=0;whiteSpace=wrap;html=1;" parent="LFaYC_BXR7kkYEN-PLju-13" vertex="1">
           <mxGeometry x="490" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LFaYC_BXR7kkYEN-PLju-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LFaYC_BXR7kkYEN-PLju-13" source="LFaYC_BXR7kkYEN-PLju-16" target="LFaYC_BXR7kkYEN-PLju-18">
+        <mxCell id="LFaYC_BXR7kkYEN-PLju-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="LFaYC_BXR7kkYEN-PLju-13" source="LFaYC_BXR7kkYEN-PLju-16" target="LFaYC_BXR7kkYEN-PLju-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LFaYC_BXR7kkYEN-PLju-16" value="Capture reconciliation errors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LFaYC_BXR7kkYEN-PLju-13">
+        <mxCell id="LFaYC_BXR7kkYEN-PLju-16" value="Capture reconciliation errors" style="rounded=0;whiteSpace=wrap;html=1;" parent="LFaYC_BXR7kkYEN-PLju-13" vertex="1">
           <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LFaYC_BXR7kkYEN-PLju-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LFaYC_BXR7kkYEN-PLju-13" source="LFaYC_BXR7kkYEN-PLju-18" target="LFaYC_BXR7kkYEN-PLju-20">
+        <mxCell id="LFaYC_BXR7kkYEN-PLju-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="LFaYC_BXR7kkYEN-PLju-13" source="LFaYC_BXR7kkYEN-PLju-18" target="LFaYC_BXR7kkYEN-PLju-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LFaYC_BXR7kkYEN-PLju-18" value="Log invoice ID, customer ID, payment info, failure reason" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LFaYC_BXR7kkYEN-PLju-13">
+        <mxCell id="LFaYC_BXR7kkYEN-PLju-18" value="Log invoice ID, customer ID, payment info, failure reason" style="rounded=0;whiteSpace=wrap;html=1;" parent="LFaYC_BXR7kkYEN-PLju-13" vertex="1">
           <mxGeometry x="190" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LFaYC_BXR7kkYEN-PLju-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="LFaYC_BXR7kkYEN-PLju-13" source="LFaYC_BXR7kkYEN-PLju-20" target="LFaYC_BXR7kkYEN-PLju-14">
+        <mxCell id="LFaYC_BXR7kkYEN-PLju-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="LFaYC_BXR7kkYEN-PLju-13" source="LFaYC_BXR7kkYEN-PLju-20" target="LFaYC_BXR7kkYEN-PLju-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LFaYC_BXR7kkYEN-PLju-20" value="Update historical logs (retain 90 days)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LFaYC_BXR7kkYEN-PLju-13">
+        <mxCell id="LFaYC_BXR7kkYEN-PLju-20" value="Update historical logs (retain 90 days)" style="rounded=0;whiteSpace=wrap;html=1;" parent="LFaYC_BXR7kkYEN-PLju-13" vertex="1">
           <mxGeometry x="340" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LFaYC_BXR7kkYEN-PLju-21" value="IT Support Engineer" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="LFaYC_BXR7kkYEN-PLju-12">
-          <mxGeometry y="160" width="660" height="170" as="geometry" />
+        <mxCell id="pdMPMaJ6xtJ1TNGXqqYj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LFaYC_BXR7kkYEN-PLju-13" source="pdMPMaJ6xtJ1TNGXqqYj-1" target="pdMPMaJ6xtJ1TNGXqqYj-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LFaYC_BXR7kkYEN-PLju-22" value="Review logs as needed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LFaYC_BXR7kkYEN-PLju-21">
-          <mxGeometry x="400" y="50" width="120" height="60" as="geometry" />
+        <mxCell id="pdMPMaJ6xtJ1TNGXqqYj-7" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pdMPMaJ6xtJ1TNGXqqYj-6">
+          <mxGeometry x="-0.1273" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdMPMaJ6xtJ1TNGXqqYj-1" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IT&lt;/span&gt;&lt;/div&gt;&lt;div&gt;need to review logs?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LFaYC_BXR7kkYEN-PLju-13">
+          <mxGeometry x="330" y="150" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pdMPMaJ6xtJ1TNGXqqYj-5" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LFaYC_BXR7kkYEN-PLju-13">
+          <mxGeometry x="500" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LFaYC_BXR7kkYEN-PLju-21" value="IT Support Engineer" style="swimlane;startSize=20;horizontal=0;html=1;" parent="LFaYC_BXR7kkYEN-PLju-12" vertex="1">
+          <mxGeometry y="270" width="720" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pdMPMaJ6xtJ1TNGXqqYj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="LFaYC_BXR7kkYEN-PLju-21" source="LFaYC_BXR7kkYEN-PLju-22" target="pdMPMaJ6xtJ1TNGXqqYj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LFaYC_BXR7kkYEN-PLju-22" value="Review logs as needed" style="rounded=0;whiteSpace=wrap;html=1;" parent="LFaYC_BXR7kkYEN-PLju-21" vertex="1">
+          <mxGeometry x="320" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pdMPMaJ6xtJ1TNGXqqYj-8" value="Investigate resolve issues" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LFaYC_BXR7kkYEN-PLju-21">
+          <mxGeometry x="480" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pdMPMaJ6xtJ1TNGXqqYj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="LFaYC_BXR7kkYEN-PLju-12" source="pdMPMaJ6xtJ1TNGXqqYj-1" target="LFaYC_BXR7kkYEN-PLju-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pdMPMaJ6xtJ1TNGXqqYj-3" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pdMPMaJ6xtJ1TNGXqqYj-2">
+          <mxGeometry x="-0.2533" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
